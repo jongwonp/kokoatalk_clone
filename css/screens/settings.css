@@ -18,6 +18,19 @@
     font-size: 22px;
 }
 
+.settings__setting-column{
+    display: flex;
+}
+
+.settings__setting-column>span{
+    display: flex;
+    width: 90%;
+}
+
+.settings-list-badge{
+    margin-left: 6px;
+}
+
 .settings__setting-column:last-child{
     opacity: 0.5;
 }
