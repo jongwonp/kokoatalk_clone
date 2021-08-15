@@ -22,13 +22,17 @@
     display: flex;
 }
 
+/* .settings__setting-column{
+    display: flex;
+} -> did'nt change */
+
 .settings__setting-column>span{
     display: flex;
     width: 90%;
 }
 
 .settings-list-badge{
-    margin-left: 6px;
+    margin-left: 10px;
 }
 
 .settings__setting-column:last-child{
