@@ -1,7 +1,10 @@
 .screen-header{
     display: flex;
     justify-content: space-between;
-    padding:60px 20px 25px 25px;
+    align-items: center;
+    padding:var(--horizontal-space);
+    margin-top: 25px;
+    margin-bottom: 15px;
 }
 
 .screen-header__title{
@@ -9,6 +12,26 @@
     font-weight: 600;
 }
 
-.screen-header__icons span{
+.screen-header__icons>span{
     margin-left: 25px;
+    position: relative;
+}
+
+.screen-header__red-dot{
+    position: absolute;
+    top: -6px;
+    right: -8px;
+}
+
+@keyframes retateCog{
+    from{
+        transform: none;
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+.screen-header__icons .fa-cog:hover{
+animation: retateCog 1s linear infinite;
 }
