@@ -1,5 +1,6 @@
 .more-screen .icon-row{
     margin-top: 35px;
+    
 }
 
 .more-suggestions{
@@ -37,4 +38,9 @@
 .more-suggestions__icon-image i{
     font-size: 32px;
     color: white;
+}
+
+.more-suggestions__icon-image_bank i{
+    font-size: 43px;
+    color: black;
 }
